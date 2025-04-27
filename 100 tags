@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Tag HTML Berbeda</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background-color: #f0f8ff; 
+      padding: 20px; 
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    header { 
+      background-color: #3498db; 
+      color: white; 
+      text-align: center; 
+      padding: 20px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+    nav a { 
+      color: white; 
+      margin: 10px; 
+      text-decoration: none; 
+      font-weight: bold; 
+      font-size: 16px; 
+    }
+    footer { 
+      text-align: center; 
+      padding: 15px 0; 
+      background-color: #3498db; 
+      color: white; 
+      position: relative; 
+      width: 100%; 
+      margin-top: auto;
+    }
+    section { 
+      margin-top: 30px; 
+      padding: 20px; 
+      background-color: #fff; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+    img { 
+      max-width: 100%; 
+      border-radius: 8px; 
+    }
+    figure { 
+      text-align: center; 
+    }
+    table { 
+      width: 100%; 
+      border-collapse: collapse; 
+      margin-top: 20px; 
+    }
+    th, td { 
+      padding: 12px; 
+      text-align: left; 
+      border: 1px solid #ddd; 
+    }
+    .highlight { 
+      color: #e74c3c; 
+    }
+    .code { 
+      background-color: #f4f4f4; 
+      padding: 10px; 
+      border-radius: 5px; 
+      font-family: Consolas, monospace; 
+    }
+    .btn { 
+      padding: 12px 20px; 
+      background-color: #3498db; 
+      color: white; 
+      border: none; 
+      border-radius: 4px; 
+      cursor: pointer; 
+      text-align: center; 
+      display: block; 
+      width: 100%; 
+    }
+    .btn:hover { 
+      background-color: #2980b9; 
+    }
+    input, textarea { 
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      font-size: 16px; 
+      color: #333; 
+    }
+    h2 { 
+      color: #2c3e50; 
+    }
+    code { 
+      font-family: Consolas, monospace; 
+      color: #34495e; 
+    }
+    .alert { 
+      background-color: #ffeb3b; 
+      padding: 10px; 
+      border-radius: 4px; 
+      margin-top: 15px; 
+    }
+    .bold { font-weight: bold; }
+    .italic { font-style: italic; }
+    .underline { text-decoration: underline; }
+    .center { text-align: center; }
+    .left { text-align: left; }
+    .right { text-align: right; }
+    .blue { color: blue; }
+    .red { color: red; }
+    .green { color: green; }
+    .yellow { color: yellow; }
+    .background { background-color: lightgray; }
+    .box-shadow { box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); }
+    .border-radius { border-radius: 10px; }
+    .padding { padding: 20px; }
+    .margin { margin: 20px; }
+    .full-width { width: 100%; }
+    .half-width { width: 50%; }
+    .text-muted { color: #888; }
+    .font-size { font-size: 20px; }
+    .overflow { overflow: hidden; }
+    .transition { transition: all 0.3s ease; }
+    .rotate { transform: rotate(15deg); }
+    .scale { transform: scale(1.2); }
+    .scale-hover:hover { transform: scale(1.3); }
+    .cursor-pointer { cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Website Interaktif dengan HTML & CSS!</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Blog</a>
+  <a href="#">Kontak</a>
+  <a href="#">About</a>
+</nav>
+
+<main>
+  <section>
+    <h2>Artikel Terbaru</h2>
+    <p>Ini adalah artikel pertama di website ini. <a href="https://www.wikipedia.org" target="_blank" class="highlight">Klik di sini</a> untuk info lebih lanjut.</p>
+    <figure>
+      <img src="https://www.w3.org/Icons/WWW/w3c_home.png" alt="Ilustrasi Artikel">
+      <figcaption>Ilustrasi Artikel</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Belajar HTML</h2>
+    <p>Berikut adalah contoh HTML dasar:</p>
+    <pre class="code">
+      <code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+        &lt;title&gt;HTML Tutorial&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+          &lt;h1&gt;This is a heading&lt;/h1&gt;
+          &lt;p&gt;This is a paragraph.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+      </code>
+    </pre>
+    <p>Penjelasan:</p>
+    <ul>
+      <li><strong>&lt;h1&gt;</strong> adalah tag untuk judul.</li>
+      <li><strong>&lt;p&gt;</strong> adalah tag untuk paragraf.</li>
+      <li><strong>&lt;html&gt;</strong> adalah elemen dasar dari dokumen HTML.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Referensi HTML & CSS</h2>
+    <p>Cek panduan HTML lengkap di <a href="https://www.html5rocks.com/en/" target="_blank" class="highlight">HTML5 Rocks</a>.</p>
+    <p>Pelajari CSS dari dasar di <a href="https://csswizardry.com/" target="_blank" class="highlight">CSS Wizardry</a>.</p>
+    <p>Temukan teknik CSS lanjutan di <a href="https://www.smashingmagazine.com/tag/css/" target="_blank" class="highlight">Smashing Magazine - CSS</a>.</p>
+    <p>Ikuti tutorial HTML & CSS di <a href="https://www.codecademy.com/learn/learn-html" target="_blank" class="highlight">Codecademy</a>.</p>
+  </section>
+
+  <section>
+    <h2>HTML & CSS dalam Praktik</h2>
+    <p>Dengan menggunakan tag <code>&lt;div&gt;</code> dan <code>&lt;span&gt;</code>, kamu bisa membagi konten halaman web menjadi beberapa bagian dan memodifikasinya menggunakan CSS.</p>
+    <p>Contoh menggunakan <code>&lt;style&gt;</code> di dalam HTML untuk mengubah tampilan elemen:</p>
+    <pre class="code">
+      <code>
+        &lt;style&gt;
+          body { background-color: #f0f8ff; font-family: Arial, sans-serif; }
+          h1 { color: #4CAF50; }
+        &lt;/style&gt;
+      </code>
+    </pre>
+    <p>Pelajari lebih lanjut tentang tag HTML seperti <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, dan <code>&lt;section&gt;</code>.</p>
+  </section>
+
+  <section>
+    <h2>Teks dan Inline Tambahan</h2>
+    <p><strong>Ini teks penting!</strong></p>
+    <p><em>Ini teks ditegaskan!</em></p>
+    <p><u>Ini teks digarisbawahi</u> untuk penekanan.</p>
+    <p>Ini contoh teks dengan <sub>subscript</sub> dan <sup>superscript</sup>.</p>
+    <blockquote>
+      "Belajar coding itu seru!"
+    </blockquote>
+    <figcaption>Ilustrasi Teks</figcaption>
+  </section>
+
+  <section>
+    <h2>List dan Data</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <ol>
+      <li>Belajar Dasar</li>
+      <li>Praktik</li>
+      <li>Proyek</li>
+    </ol>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Bahasa markup untuk web</dd>
+      <dt>CSS</dt>
+      <dd>Bahasa untuk desain web</dd>
+    </dl>
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Umur</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Al Fira</td>
+          <td>20</td>
+          <td>Mahasiswi</td>
+        </tr>
+        <tr>
+          <td>Aulia</td>
+          <td>20</td>
+          <td>Mahasiswi</td>
+        </tr>
+      </tbody>
+    </table>
+    <figure>
+      <img src="https://via.placeholder.com/400x250.png?text=List+dan+Data" alt="Ilustrasi List dan Data">
+      <figcaption>Ilustrasi List dan Data</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Form dan Interaksi</h2>
+    <form>
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name" placeholder="Masukkan Nama Anda">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Masukkan Email Anda">
+      <label for="message">Pesan:</label>
+      <input type="message" id="message" name="message" placeholder="Masukkan Pesan Anda">
+      <button type="submit" class="btn">Kirim</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Website Interaktif Sederhana Al Fira Damayanti</p>
+</footer>
+
+</body>
+</html>
